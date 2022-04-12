@@ -1,0 +1,15 @@
+name: Totems
+version: ${project.version}
+main: me.snazzy.totems.Main
+api-version: 1.16
+authors: [ MrSnazzy ]
+description: Adds totems which have many different effects while held.
+commands:
+  totems:
+    description: Lists all possible totems.
+    usage: /totems
+  totem:
+    description: Gives player a totem.
+    usage: /totem
+    permission: totem.cmd
+    permission-message: You do not have permission to use that command.
